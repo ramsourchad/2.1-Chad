@@ -242,6 +242,20 @@ transition:all 0.3s ease-in-out;}
     padding-top: 40px;
 }
 
-.project__description{
+.project__discription{
     position: absolute;
+    top: 50%;
+    left: 90px;
+    transform: translateY(-50%);
+    max-width: 550px;
 }
+.project__discription--title,
+.project__discription--sub-title,
+.project__discription--paragraph,
+.project__discription--link{
+    text-align: left;   
+color: #fff;
+
+}
+
+    
