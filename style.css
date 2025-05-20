@@ -66,6 +66,7 @@ li{
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    padding:0 12px;
 }
 .text--purple{
     color:#6030b1;
@@ -87,6 +88,7 @@ margin: 0 auto;
 display: flex;
 justify-content: space-between;
 align-items: center;
+padding: 0 12px;
 }
 .nav__link--list{
     display: flex;
@@ -202,7 +204,7 @@ transition:all 0.3s ease-in-out;}
 }
  .language{
     width: 25%;
-    display:flex;
+    display:flex;row
     justify-content: center;
     position: relative;
  }
@@ -214,6 +216,7 @@ transition:all 0.3s ease-in-out;}
  }
  .language__list{
     display: flex;
+    justify-content: center;
     width: 100%;
     flex-wrap: wrap;  
  }
@@ -366,3 +369,44 @@ footer{
     opacity: 1;
     transition: all 0.3s ease-in-out;
 }
+/* Small phones, tablets, large smatphones */
+@media (max-width: 768px) {
+   nav {
+    height: 68px;
+   }  
+   h1{
+    font-size: 28px;
+   }
+
+   .about-me__info--para{
+    font: 18;
+   }
+   .language{
+    width: calc(100%/3);
+   }
+   .project__description--para{
+    font: 14px;
+   }
+   .project__description{
+    left: 30px;
+    padding-right:30px
+   }
+}
+/*SMALL PHONES */
+@media (max-width: 480px) {
+    .nav__link:not(:last-child){
+        display: none;
+    }
+   
+.project__description--para{
+  display: none;  
+}
+.project__description--links{
+    display: flex;
+    justify-content: center;
+}
+.project__description--sub-title{
+    text-align: center;
+
+}
+ }
