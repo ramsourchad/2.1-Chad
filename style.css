@@ -167,7 +167,7 @@ padding: 0 12px;
     margin-bottom: 16px;
     
     }
-.about-me__info--paragraph{
+.about-me__info--para{
 font-size: 16px;
 margin-bottom: 28px;
 
@@ -313,7 +313,7 @@ transition:all 0.3s ease-in-out;}
 }
 .project__description--title,
 .project__description--sub-title,
-.project__description--paragraph,
+.project__description--para,
 .project__description--link {
     text-align: left;   
 color: #fff;
